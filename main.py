@@ -21,3 +21,12 @@ print(typeBasedTransformer(**data))
 
 
 
+
+
+@decorator_1
+def factorial(n=10):
+    ans=1
+    for i in range(1,n): ans*=i
+    return ans
+
+factorial(50)
